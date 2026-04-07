@@ -23,10 +23,10 @@ For container security, I used Trivy to scan images and analyze vulnerabilities.
 
 Finally, I built a simple DevSecOps pipeline that automates the process:
 
-*Runs Checkov to validate security
-*Stops deployment if issues are found
-*Deploys infrastructure using Terraform if checks pass
-*Runs Trivy for vulnerability scanning
+- Runs Checkov to validate security
+- Stops deployment if issues are found
+- Deploys infrastructure using Terraform if checks pass
+- Runs Trivy for vulnerability scanning
 
 This project helped me understand both attack and defense perspectives in cloud security, along with implementing automated security checks in a deployment workflow.
 
